@@ -13,4 +13,7 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: "build", // Change this to "build" if you want to use the "build" folder instead of "dist"
+  },
 });
