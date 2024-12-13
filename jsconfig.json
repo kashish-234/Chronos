@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".", // Root directory
+        "paths": {
+            "@/*": ["src/*"], // Map "@/..." to "src/..."
+            "@components/*": ["src/components/*"], // Alias for components
+            "@utils/*": ["src/utils/*"], // Alias for utilities
+        }
+    },
+    "include": ["src/**/*", "src/App.jsx",], // Include all source files and Next.js types
+    "exclude": ["node_modules"] // Exclude node_modules
+  }
