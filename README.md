@@ -20,22 +20,29 @@ Features
 Installation
 ------------
 
-### 1\. Clone the repo:
+### 1. Clone the repository:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopy code  git clone [https://github.com/kashish-234/Chronos.git](https://github.com/kashish-234/Chronos.git)  cd event-calendar   `
+```bash
 
-### 2\. Install dependencies:
+git clone https://github.com/kashish-234/Note-Canvas-frontend.git
 
-*   bashCopy code npm install
-    
-*   bashCopy code yarn install
-    
+cd note-canvas
 
-### 3\. Run locally:
+```
 
-*   bashCopy code npm run dev
-    
-*   bashCopy code yarn start
-    
+### 2. Run the development server:
 
+```bash
+
+npm run dev
+
+# or
+
+yarn dev
+
+# or
+
+pnpm dev
+
+```
 Here's a link to my deployed app:
