@@ -3,7 +3,7 @@
         "baseUrl": ".", // Root directory
         "paths": {
             "@/*": ["src/*"], // Map "@/..." to "src/..."
-            "@components/*": ["src/components/*"], // Alias for components
+            "@/components/*": ["src/components/*"], // Alias for components
             "@utils/*": ["src/utils/*"], // Alias for utilities
         }
     },
